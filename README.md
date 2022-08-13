@@ -4,6 +4,8 @@
 
 ```sh
 tailwindcss v.3.1.8
+react-icons v.4.4.0
+
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
