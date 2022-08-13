@@ -17,7 +17,7 @@
   }
 
   h1 {
-    @apply text-5xl sm:text-7xl md:text-8xl;
+    @apply text-6xl sm:text-7xl md:text-8xl;
   }
 
   h2 {
@@ -26,6 +26,10 @@
 
   h3 {
     @apply text-2xl sm:text-3xl;
+  }
+
+  p {
+    @apply text-[0.875rem] sm:text-base;
   }
 
   li {
