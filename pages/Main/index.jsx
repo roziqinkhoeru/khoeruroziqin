@@ -1,12 +1,11 @@
 import React from "react";
-import { SiHtml5 } from "react-icons/si";
 import MediaLink from "./components/MediaLink";
 
 const Main = () => {
   return (
     <>
-      <main className='w-full h-screen flex items-center justify-center'>
-        <div className='flex flex-col mx-3 sm:mx-16 md:mx-28'>
+      <main className='w-full h-screen flex items-center justify-center pt-12'>
+        <div className='flex flex-col mx-3 sm:mx-16 md:mx-20'>
           <h1 className='mb-6 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
             Made With Experience
           </h1>

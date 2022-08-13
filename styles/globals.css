@@ -37,6 +37,10 @@
   }
 
   button {
-    @apply shadow-xl rounded-xl bg-gradient-to-br from-[#5651e5] to-[#709dff] px-4 py-3;
+    @apply shadow-xl transition-all duration-200 ease-in-out;
+  }
+
+  ::selection {
+    @apply bg-purple-500 text-white;
   }
 }
