@@ -15,7 +15,12 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Khoeru Roziqin</title>
+        <title>Khoeru Roziqin - Personal Portfolio</title>
+        <meta
+          name='keywords'
+          content='website, blog, portfolio, personal-portfolio, khoeru, roziqin, khoeruroziqin, roziqinkhoeru, khoeru roziqin undip'
+        />
+        <meta name='author' content='Khoeru Roziqin' />
         <meta
           name='description'
           content='Personal Website Portfolio Khoeru Roziqin'
