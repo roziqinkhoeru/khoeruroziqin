@@ -7,6 +7,9 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    fontFamily: {
+      inter: ["Inter", "Sans-serif"],
+    },
     extend: {},
   },
   plugins: [],

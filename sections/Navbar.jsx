@@ -42,7 +42,7 @@ const Navbar = ({ themesSet }) => {
         <div className='max-w-screen-2xl mx-auto'>
           <div className='px-6 sm:px-20 py-5 flex items-center justify-between'>
             <Link href='/'>
-              <a className='font-bold text-lg sm:text-xl text-fuchsia-500 px-2 pb-1 sm:pb-2 pt-1 border border-fuchsia-700 rounded-lg'>
+              <a className='font-bold text-lg sm:text-xl text-fuchsia-500 px-2 py-1 sm:py-[0.375rem] border border-fuchsia-700 rounded-lg'>
                 KR
               </a>
             </Link>
