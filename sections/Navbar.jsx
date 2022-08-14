@@ -4,7 +4,7 @@ import Link from "next/link";
 import { BiSun, BiMoon } from "react-icons/bi";
 import Button from "../components/Button";
 
-const Navbar = ({ themesSet }) => {
+const Navbar = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -17,7 +17,7 @@ const Navbar = ({ themesSet }) => {
     { label: "About", path: "/about" },
   ];
 
-  const renderThemeCanger = () => {
+  const renderThemeChanger = () => {
     if (!mounted) return null;
 
     const currentTheme = theme === "system" ? systemTheme : theme;
@@ -46,7 +46,7 @@ const Navbar = ({ themesSet }) => {
                 KR
               </a>
             </Link>
-            {renderThemeCanger()}
+            {renderThemeChanger()}
           </div>
         </div>
       </nav>

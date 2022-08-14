@@ -7,6 +7,7 @@ tailwindcss v.3.1.8
 react-icons v.4.4.0
 typewriter-effect v.2.19.0
 next-themes v.0.2.0
+@tanem/react-nprogress v.5.0.10
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

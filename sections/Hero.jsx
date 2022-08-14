@@ -9,7 +9,7 @@ const Hero = ({ mailHandling }) => {
         id='heroSection'
         className='flex flex-col py-6 mx-6 sm:mx-16 md:mx-20 max-w-screen-2xl'
       >
-        <h1 className='mb-6 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
+        <h1 className='mb-6 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-700 dark:from-purple-400 dark:to-pink-600'>
           <Typewriter
             options={{
               autoStart: true,
