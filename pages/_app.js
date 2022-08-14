@@ -4,11 +4,11 @@ import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <ThemeProvider attribute='class'>
+    <ThemeProvider attribute='class'>
+      <Layout>
         <Component {...pageProps} />
-      </ThemeProvider>
-    </Layout>
+      </Layout>
+    </ThemeProvider>
   );
 }
 

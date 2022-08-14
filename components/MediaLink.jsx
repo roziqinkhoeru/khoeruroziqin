@@ -7,27 +7,27 @@ const MediaLink = () => {
     {
       name: "LinkedIn",
       link: "https://www.linkedin.com/in/khoeruroziqin/",
-      icon: <FaLinkedinIn size={18} className='mr-2' />,
+      icon: <FaLinkedinIn className='mr-2 text-base sm:text-lg' />,
     },
     {
       name: "Github",
       link: "https://github.com/roziqinkhoeru",
-      icon: <FaGithub size={18} className='mr-2' />,
+      icon: <FaGithub className='mr-2 text-base sm:text-lg' />,
     },
     {
       name: "Instagram",
       link: "https://www.instagram.com/roziqinkhoeru/",
-      icon: <RiInstagramFill size={18} className='mr-2' />,
+      icon: <RiInstagramFill className='mr-2 text-base sm:text-lg' />,
     },
     {
       name: "Youtube",
       link: "https://www.youtube.com/channel/UCzUYv8PkYwLeFCnLX1-6CXQ",
-      icon: <FaYoutube size={18} className='mr-2' />,
+      icon: <FaYoutube className='mr-2 text-base sm:text-lg' />,
     },
     {
       name: "Showcase",
       link: "https://roziqinkhoeru.showwcase.com/",
-      icon: <FaBook size={18} className='mr-2' />,
+      icon: <FaBook className='mr-2 text-base sm:text-lg' />,
     },
   ];
   return (
@@ -35,14 +35,14 @@ const MediaLink = () => {
       <div className='flex flex-wrap items-center'>
         {dataLink.map((item, index) => {
           return (
-            <div key={index} className='mr-4'>
+            <div key={index} className='mr-4 mb-3'>
               <Link href={item.link}>
                 <a
-                  className='text-gray-400 hover:text-gray-100 flex items-center'
+                  className='text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 flex items-center'
                   target='_blank'
                 >
                   {item.icon}
-                  {item.name}
+                  <span className='text-sm sm:text-base'>{item.name}</span>
                 </a>
               </Link>
             </div>

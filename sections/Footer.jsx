@@ -2,9 +2,7 @@ const Footer = () => {
   return (
     <>
       <footer className='absolute left-0 bottom-0'>
-        <p className='text-sm'>
-          khoeruroziqin &copy; {new Date().getFullYear()} All Rights Reserved.
-        </p>
+        <p className='text-sm text-black dark:text-gray-400'></p>
       </footer>
     </>
   );

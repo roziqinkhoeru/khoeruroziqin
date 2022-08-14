@@ -24,36 +24,29 @@ const Navbar = ({ themesSet }) => {
 
     if (currentTheme === "dark") {
       return (
-        <Button classes='' clickHandling={() => setTheme("light")}>
-          <BiSun
-            size={28}
-            className='dark:text-white transition-all duration-200 ease-in-out hover:text-gray-300'
-          />
+        <Button className='' clickHandling={() => setTheme("light")}>
+          <BiSun className='text-2xl sm:text-[1.7rem] text-gray-900 dark:text-gray-100 transition-all duration-200 ease-in-out hover:text-gray-700 dark:hover:text-gray-300' />
         </Button>
       );
     } else {
       return (
-        <Button classes='' clickHandling={() => setTheme("dark")}>
-          <BiMoon
-            size={28}
-            className='dark:text-white transition-all duration-200 ease-in-out hover:text-gray-300'
-          />
+        <Button className='' clickHandling={() => setTheme("dark")}>
+          <BiMoon className='text-2xl sm:text-[1.7rem] text-gray-900 dark:text-gray-100 transition-all duration-200 ease-in-out hover:text-gray-700 dark:hover:text-gray-300' />
         </Button>
       );
     }
   };
-  console.log(`nilai theme: ${theme}`);
   return (
     <>
       <nav className='w-full fixed top-0'>
         <div className='max-w-screen-2xl mx-auto'>
           <div className='px-6 sm:px-20 py-5 flex items-center justify-between'>
             <Link href='/'>
-              <a className='font-bold text-xl text-fuchsia-500 px-2 pb-2 pt-1 border border-fuchsia-700 rounded-lg'>
+              <a className='font-bold text-lg sm:text-xl text-fuchsia-500 px-2 pb-1 sm:pb-2 pt-1 border border-fuchsia-700 rounded-lg'>
                 KR
               </a>
             </Link>
-            <div className=''>{renderThemeCanger()}</div>
+            {renderThemeCanger()}
           </div>
         </div>
       </nav>

@@ -22,6 +22,7 @@ const Layout = ({ children }) => {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
       <div className='relative'>
         <Navbar themesSet={"dark"} />
         <main className='w-full h-screen min-h-[42rem] sm:min-h-0 flex items-center justify-center pt-8 sm:pt-12'>
