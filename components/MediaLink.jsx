@@ -6,7 +6,7 @@ const MediaLink = () => {
   const dataLink = [
     {
       name: "LinkedIn",
-      link: "https://www.linkedin.com/in/khoeruroziqin/",
+      link: "https://www.linkedin.com/in/roziqinkhoeru/",
       icon: <FaLinkedinIn className='mr-2 text-base sm:text-lg' />,
     },
     {
@@ -16,7 +16,7 @@ const MediaLink = () => {
     },
     {
       name: "Instagram",
-      link: "https://www.instagram.com/roziqinkhoeru/",
+      link: "https://www.instagram.com/khroz_id/",
       icon: <RiInstagramFill className='mr-2 text-base sm:text-lg' />,
     },
     {
